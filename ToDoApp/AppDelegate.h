@@ -6,9 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// 인터페이스 정의 UIResponder 클래스 인터페이스 상속 / UIApplicationDelegate
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-
+    
 @end
-
