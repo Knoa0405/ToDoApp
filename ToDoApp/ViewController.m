@@ -15,10 +15,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (IBAction)submit_button:(id)sender {
+    NSLog(@"self.todo_input = %@", _todo_input_field.text);
+    
+    self.todo_input_field.text = @"";
     // Do any additional setup after loading the view.
 }
 
 
-- (IBAction)submit_button:(id)sender {
-}
+
 @end

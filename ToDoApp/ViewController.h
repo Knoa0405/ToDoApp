@@ -11,5 +11,9 @@
 
 - (IBAction)submit_button:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UITextField *todo_input_field;
+
+@property (strong, nonatomic) IBOutlet UITableView *todo_table;
+
 @end
 
